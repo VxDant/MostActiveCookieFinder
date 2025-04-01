@@ -1,6 +1,0 @@
-com/findmostactivecookie/implementations/CookieContentAnalyzerImpl.class
-com/findmostactivecookie/interfaces/FileReader.class
-com/findmostactivecookie/Main.class
-com/findmostactivecookie/implementations/CookieProcessor.class
-com/findmostactivecookie/implementations/CsvReader.class
-com/findmostactivecookie/interfaces/CookieContentAnalyzer.class
