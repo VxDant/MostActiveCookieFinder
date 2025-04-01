@@ -61,7 +61,7 @@ Finding the most active cookie on December 9, 2018:
 java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/cookie_log.csv -d 2018-12-06 
 ```
 
-Output:
+**Output:**
 
 `AtY0laUfhglK3lC7`
 
@@ -81,7 +81,7 @@ The cookie log file should be in CSV format with the following structure:
 ...
 ```
 
-Example:
+**Example:**
 
 ```
 cookie,timestamp
@@ -96,7 +96,7 @@ The application includes comprehensive unit tests for all components. To run the
 `mvn test
 `
 
-The tests cover:
+**The tests cover:**
 
 * Log file parsing
 * Cookie analysis
