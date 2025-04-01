@@ -54,7 +54,8 @@ java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/co
 
 Replace [cookie_log_file.csv] with the path to your cookie log file and [date] with the date you want to analyze in the format YYYY-MM-DD.
 
-Examples
+**Example:**
+
 Finding the most active cookie on December 9, 2018:
 
 ```
