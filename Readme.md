@@ -49,7 +49,7 @@ This will compile the code, run tests, and create an executable JAR file in the 
 After building, you can run the application using:
 
 ```
-java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/cookie_log.csv -d [date]
+java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/com/findmostactivecookie/log/cookie_log.csv -d [date]
 ```
 
 Replace [cookie_log_file.csv] with the path to your cookie log file and [date] with the date you want to analyze in the format YYYY-MM-DD.
@@ -59,7 +59,7 @@ Replace [cookie_log_file.csv] with the path to your cookie log file and [date] w
 Finding the most active cookie on December 9, 2018:
 
 ```
-java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/cookie_log.csv -d 2018-12-06 
+java -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/com/findmostactivecookie/log/cookie_log.csv -d 2018-12-06
 ```
 
 **Output:**
