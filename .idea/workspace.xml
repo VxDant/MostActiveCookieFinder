@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b609c60d-32b7-416f-bd91-3df994e5f14c" name="Changes" comment="removed readme image" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="creating_classes_log_parser_output_formatter" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;va645r_wayfair&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VxDant/MostActiveCookiesCode.git",
+    "accountId": "67b9ef13-cb8f-4974-afd8-f6259a20db5f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uwT5vZ3vRkDosAWUmddNKCQgSs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.CommandLineArgsTest.testConstructorAndGetters.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseEmptyArgs.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseInvalidDateFormat.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseMissingDate.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseMissingFilePath.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseValidArgs.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseValidArgsInDifferentOrder.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseWithExtraArgs.executor": "Run",
+    "JUnit.CommandLineParserTest.testParseWithMissingValueForFlag.executor": "Run",
+    "JUnit.ConsoleOutputFormatterTest.executor": "Run",
+    "JUnit.CookieAnalyzerTest.executor": "Run",
+    "JUnit.CookieAnalyzerTest.testFindMostActiveCookies_EmptyLogLines.executor": "Run",
+    "JUnit.CookieAnalyzerTest.testFindMostActiveCookies_MalformedLogLine.executor": "Run",
+    "JUnit.CookieAnalyzerTest.testFindMostActiveCookies_MultipleMostActiveCookies.executor": "Run",
+    "JUnit.CookieAnalyzerTest.testFindMostActiveCookies_NoMatchingDate.executor": "Run",
+    "JUnit.CookieAnalyzerTest.testFindMostActiveCookies_SingleMostActiveCookie.executor": "Run",
+    "JUnit.CookieContentAnalyzerImplTest.testFindMostActiveCookies_EmptyLogLines.executor": "Run",
+    "JUnit.CookieContentAnalyzerImplTest.testFindMostActiveCookies_SingleMostActiveCookie.executor": "Run",
+    "JUnit.CookieContentAnalyzerImplTest.testFindMostActiveCookies_SkipInvalidTimeStamp.executor": "Run",
+    "JUnit.CookieContentAnalyzerImplTest.testFindMostActiveCookies_SkipMalformedLogLine.executor": "Run",
+    "JUnit.CookieLogReaderTest.executor": "Run",
+    "JUnit.CookieLogReaderTest.testReadLogFile_EmptyFile.executor": "Run",
+    "JUnit.CookieLogReaderTest.testReadLogFile_NonexistentFile.executor": "Run",
+    "JUnit.CookieOccurenceTest.executor": "Run",
+    "JUnit.CookieProcessorTest.executor": "Run",
+    "JUnit.CookieProcessorTest.testProcess_FileReadError_HandlesIOExceptionGracefully.executor": "Run",
+    "JUnit.CookieProcessorTest.testProcess_ValidFile_DateWithNoMatchingCookies_ReturnsEmptyList.executor": "Run",
+    "JUnit.CookieProcessorTest.testProcess_ValidFile_WithHeaderAndLogs_HappyPath.executor": "Run",
+    "JUnit.CookieTest.executor": "Run",
+    "JUnit.CsvLogParserTest.executor": "Run",
+    "JUnit.CsvParserTest.testReadLogFile_FileIsEmpty_UnhappyPath_NoException.executor": "Run",
+    "JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath.executor": "Run",
+    "JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException.executor": "Run",
+    "JUnit.IntegrationTest.executor": "Run",
+    "JUnit.MostActiveCookieAnalyzerTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/va645r/IdeaProjects/MostActiveCookieFinder/src/main/java/org/example/log",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException">
+    <configuration name="CookieProcessorTest.testProcess_FileReadError_HandlesIOExceptionGracefully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CookieProcessorTest" />
+      <option name="METHOD_NAME" value="testProcess_FileReadError_HandlesIOExceptionGracefully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CookieProcessorTest.testProcess_ValidFile_DateWithNoMatchingCookies_ReturnsEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CookieProcessorTest" />
+      <option name="METHOD_NAME" value="testProcess_ValidFile_DateWithNoMatchingCookies_ReturnsEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CookieProcessorTest.testProcess_ValidFile_WithHeaderAndLogs_HappyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CookieProcessorTest" />
+      <option name="METHOD_NAME" value="testProcess_ValidFile_WithHeaderAndLogs_HappyPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvParserTest.testReadLogFile_FileIsEmpty_UnhappyPath_NoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CsvParserTest" />
+      <option name="METHOD_NAME" value="testReadLogFile_FileIsEmpty_UnhappyPath_NoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CsvParserTest" />
+      <option name="METHOD_NAME" value="testReadLogFile_NoFilePresent_UnhappyPath_ThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MostActiveCookieFinder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.findmostactivecookie.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException" />
+        <item itemvalue="JUnit.CsvParserTest.testReadLogFile_FileIsEmpty_UnhappyPath_NoException" />
+        <item itemvalue="JUnit.CookieProcessorTest.testProcess_ValidFile_WithHeaderAndLogs_HappyPath" />
+        <item itemvalue="JUnit.CookieProcessorTest.testProcess_ValidFile_DateWithNoMatchingCookies_ReturnsEmptyList" />
+        <item itemvalue="JUnit.CookieProcessorTest.testProcess_FileReadError_HandlesIOExceptionGracefully" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b609c60d-32b7-416f-bd91-3df994e5f14c" name="Changes" comment="" />
+      <created>1743158458583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743158458583</updated>
+      <workItem from="1743158459678" duration="15361000" />
+      <workItem from="1743176518413" duration="20720000" />
+      <workItem from="1743426648530" duration="20541000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added a Readme.md">
+      <option name="closed" value="true" />
+      <created>1743373285205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743373285205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Improved Readme.md">
+      <option name="closed" value="true" />
+      <created>1743375632025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743375632025</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improved Readme.md">
+      <option name="closed" value="true" />
+      <created>1743375799124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743375799124</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Improved Readme.md">
+      <option name="closed" value="true" />
+      <created>1743411290244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743411290244</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed class files generated">
+      <option name="closed" value="true" />
+      <created>1743412680456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743412680456</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Second app phase using parser, cli, interfaces, implementations">
+      <option name="closed" value="true" />
+      <created>1743429067073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743429067073</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completing phase of project">
+      <option name="closed" value="true" />
+      <created>1743501640508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743501640508</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Improvised Readme">
+      <option name="closed" value="true" />
+      <created>1743502046832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743502046832</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed class files">
+      <option name="closed" value="true" />
+      <created>1743502159363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743502159364</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed readme image">
+      <option name="closed" value="true" />
+      <created>1743502201500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743502201500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a Readme.md" />
+    <MESSAGE value="Improved Readme.md" />
+    <MESSAGE value="removed class files generated" />
+    <MESSAGE value="Second app phase using parser, cli, interfaces, implementations" />
+    <MESSAGE value="completing phase of project" />
+    <MESSAGE value="Improvised Readme" />
+    <MESSAGE value="removed class files" />
+    <MESSAGE value="removed readme image" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed readme image" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/findmostactivecookie/CookieProcessorTest.java</url>
+          <line>92</line>
+          <properties class="com.findmostactivecookie.CookieProcessorTest" method="testProcess_FileReadError_HandlesIOExceptionGracefully">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

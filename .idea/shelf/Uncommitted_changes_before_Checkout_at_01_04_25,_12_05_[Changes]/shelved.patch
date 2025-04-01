@@ -1,0 +1,54 @@
+Index: Readme.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>**Most Active Cookie**\n\nA command-line program that processes cookie log files and identifies the most active cookie for a specific day.\n\n**Overview**\n\nThis application reads a cookie log file in CSV format and determines which cookie was most active (appeared most frequently) on a given day. If multiple cookies tie for the most active, all of them are returned.\n\nThe program follows SOLID principles with clean, maintainable, and extensible code architecture.\n\n**Features**\n\n* Parse cookie log files in CSV format\n* Identify the most active cookie(s) for a specified date\n* Handle multiple cookies with equal activity levels\n* Process files with timestamps in UTC format\n* Simple command-line interface with intuitive parameters\n\n**Requirements**\n\n* Java 11 or higher\n* Maven 3.6.0 or higher (for building and running tests)\n\n**Installation**\n\n**Option 1: Clone the repository**\n\n```\ngit clone https://github.com/yourusername/most-active-cookie.git\ncd most-active-cookie\n```\n\n**Option 2: Download the source code**\n\nDownload the source code as a ZIP file and extract it to your preferred location.\n\n**Building the Application**\n\nFrom the project root directory, run:\n\n`mvn clean package`\n\nThis will compile the code, run tests, and create an executable JAR file in the target directory.\n\n**Running the Application**\n\n**Using the JAR file**\n\nAfter building, you can run the application using:\n\n```\njava -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/cookie_log.csv -d [date]\n```\n\nReplace [cookie_log_file.csv] with the path to your cookie log file and [date] with the date you want to analyze in the format YYYY-MM-DD.\n\nExamples\nFinding the most active cookie on December 9, 2018:\n\n```\njava -jar target/MostActiveCookieFinder-1.0-SNAPSHOT.jar -f src/main/java/log/cookie_log.csv -d 2018-12-06 \n```\n\nOutput:\n\n`CopyAtY0laUfhglK3lC7`\n\n**Command-Line Parameters**\n\nThe application accepts the following command-line parameters:\n\n* -f [filename]: Specifies the path to the cookie log file (required)\n* -d [date]: Specifies the date to analyze in the format YYYY-MM-DD (required)\n\n**Cookie Log File Format**\n\nThe cookie log file should be in CSV format with the following structure:\n\n```Copycookie,timestamp\n[cookie_id],[ISO-8601 timestamp]\n...\n```\n\nExample:\n\n```\nCopycookie,timestamp\nAtY0laUfhglK3lC7,2018-12-09T14:19:00+00:00\nSAZuXPGUrfbcn5UA,2018-12-09T10:13:00+00:00\n```\n\n**Testing**\n\nThe application includes comprehensive unit tests for all components. To run the tests:\n\n`mvn test\n`\n\nThe tests cover:\n\n* Log file parsing\n* Cookie analysis\n* Command-line argument parsing\n* End-to-end workflow testing\n\n**Design Decisions**\n\n* Interface-based Design: Enables easy extension and testing\n* Dependency Injection: Makes components easily replaceable and testable\n* Separation of Concerns: Each class has a single responsibility\n* Immutable Models: Prevents unexpected state changes\n* Comprehensive Error Handling: Robust handling of invalid inputs
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Readme.md b/Readme.md
+--- a/Readme.md	(revision 376482bfb13604924ec0373e648b606555b09ead)
++++ b/Readme.md	(date 1743501950380)
+@@ -19,14 +19,14 @@
+ **Requirements**
+ 
+ * Java 11 or higher
+-* Maven 3.6.0 or higher (for building and running tests)
++* Maven 3.4.0 or higher (for building and running tests)
+ 
+ **Installation**
+ 
+ **Option 1: Clone the repository**
+ 
+ ```
+-git clone https://github.com/yourusername/most-active-cookie.git
++git clone https://github.com/vxdant/most-active-cookie.git
+ cd most-active-cookie
+ ```
+ 
+@@ -63,7 +63,7 @@
+ 
+ Output:
+ 
+-`CopyAtY0laUfhglK3lC7`
++`AtY0laUfhglK3lC7`
+ 
+ **Command-Line Parameters**
+ 
+@@ -76,7 +76,7 @@
+ 
+ The cookie log file should be in CSV format with the following structure:
+ 
+-```Copycookie,timestamp
++```cookie,timestamp
+ [cookie_id],[ISO-8601 timestamp]
+ ...
+ ```
+@@ -84,7 +84,7 @@
+ Example:
+ 
+ ```
+-Copycookie,timestamp
++cookie,timestamp
+ AtY0laUfhglK3lC7,2018-12-09T14:19:00+00:00
+ SAZuXPGUrfbcn5UA,2018-12-09T10:13:00+00:00
+ ```

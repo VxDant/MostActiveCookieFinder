@@ -38,7 +38,9 @@ Download the source code as a ZIP file and extract it to your preferred location
 
 From the project root directory, run:
 
-`mvn clean package`
+```
+mvn clean package
+```
 
 This will compile the code, run tests, and create an executable JAR file in the target directory.
 
