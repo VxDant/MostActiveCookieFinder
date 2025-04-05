@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b609c60d-32b7-416f-bd91-3df994e5f14c" name="Changes" comment="removed readme image" />
+    <list default="true" id="b609c60d-32b7-416f-bd91-3df994e5f14c" name="Changes" comment="removed readme image">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/findmostactivecookie/implementations/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/findmostactivecookie/implementations/LargeFileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/findmostactivecookie/implementations/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/findmostactivecookie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/findmostactivecookie/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="creating_classes_log_parser_output_formatter" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +40,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/VxDant/MostActiveCookiesCode.git",
+    "url": "https://github.com/VxDant/MostActiveCookieFinder.git",
     "accountId": "67b9ef13-cb8f-4974-afd8-f6259a20db5f"
   }
 }]]></component>
@@ -50,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
     "JUnit.CommandLineArgsTest.testConstructorAndGetters.executor": "Run",
     "JUnit.CommandLineParserTest.testParseEmptyArgs.executor": "Run",
     "JUnit.CommandLineParserTest.testParseInvalidDateFormat.executor": "Run",
@@ -85,9 +92,15 @@
     "JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException.executor": "Run",
     "JUnit.IntegrationTest.executor": "Run",
     "JUnit.MostActiveCookieAnalyzerTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "feature/process__large__files",
+    "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/va645r/IdeaProjects/MostActiveCookieFinder/src/main/java/org/example/log",
     "node.js.detected.package.eslint": "true",
@@ -106,19 +119,16 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/log" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException">
-    <configuration name="CookieProcessorTest.testProcess_FileReadError_HandlesIOExceptionGracefully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.implementations.Test" />
       <module name="MostActiveCookieFinder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.findmostactivecookie.*" />
+          <option name="PATTERN" value="com.findmostactivecookie.implementations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.findmostactivecookie" />
-      <option name="MAIN_CLASS_NAME" value="com.findmostactivecookie.CookieProcessorTest" />
-      <option name="METHOD_NAME" value="testProcess_FileReadError_HandlesIOExceptionGracefully" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,6 +197,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MostActiveCookieFinder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MostActiveCookieFinder" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="MostActiveCookieFinder" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.findmostactivecookie.Main" />
@@ -196,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.CsvParserTest.testReadLogFile_NoFilePresent_UnhappyPath_ThrowException" />
         <item itemvalue="JUnit.CsvParserTest.testReadLogFile_FileIsEmpty_UnhappyPath_NoException" />
         <item itemvalue="JUnit.CookieProcessorTest.testProcess_ValidFile_WithHeaderAndLogs_HappyPath" />
         <item itemvalue="JUnit.CookieProcessorTest.testProcess_ValidFile_DateWithNoMatchingCookies_ReturnsEmptyList" />
-        <item itemvalue="JUnit.CookieProcessorTest.testProcess_FileReadError_HandlesIOExceptionGracefully" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +246,8 @@
       <workItem from="1743158459678" duration="15361000" />
       <workItem from="1743176518413" duration="20720000" />
       <workItem from="1743426648530" duration="20541000" />
+      <workItem from="1743502923419" duration="5927000" />
+      <workItem from="1743688317592" duration="14814000" />
     </task>
     <task id="LOCAL-00001" summary="Added a Readme.md">
       <option name="closed" value="true" />

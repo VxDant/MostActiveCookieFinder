@@ -1,6 +1,7 @@
 package com.findmostactivecookie;
 import com.findmostactivecookie.implementations.CookieProcessor;
 
+import com.findmostactivecookie.implementations.LargeFileProcessor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -16,10 +17,14 @@ public class Main {
         String filename = args[1];
         String date = args[3];
 
-        ApplicationContext context = SpringApplication.run(Main.class, args);
-        CookieProcessor cookieProcessor = context.getBean(CookieProcessor.class);
+        LargeFileProcessor largeFileProcessor = new LargeFileProcessor(filename,date);
 
-        cookieProcessor.process(filename, date);
+        System.out.println(largeFileProcessor.getMostActiveCookies());
+
+//        ApplicationContext context = SpringApplication.run(Main.class, args);
+//        CookieProcessor cookieProcessor = context.getBean(CookieProcessor.class);
+//
+//        cookieProcessor.process(filename, date);
 
     }
 }
