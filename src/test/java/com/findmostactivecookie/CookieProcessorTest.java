@@ -3,8 +3,13 @@ package com.findmostactivecookie;
 import com.findmostactivecookie.implementations.CookieProcessor;
 import com.findmostactivecookie.interfaces.CookieContentAnalyzer;
 import com.findmostactivecookie.interfaces.FileReader;
+import com.findmostactivecookie.repositories.CookieLogRepository;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 
 
 import java.io.IOException;
@@ -19,12 +24,14 @@ public class CookieProcessorTest {
     private FileReader fileReaderMock;
     private CookieContentAnalyzer cookieContentAnalyzerMock;
     private CookieProcessor cookieProcessor;
+    private CookieLogRepository cookieLogRepository;
 
     @Before
     public void setUp() {
         fileReaderMock = mock(FileReader.class);
         cookieContentAnalyzerMock = mock(CookieContentAnalyzer.class);
-        cookieProcessor = new CookieProcessor(fileReaderMock, cookieContentAnalyzerMock);
+        cookieLogRepository = mock(CookieLogRepository.class);
+        cookieProcessor = new CookieProcessor(fileReaderMock, cookieContentAnalyzerMock, cookieLogRepository );
     }
 
     @Test

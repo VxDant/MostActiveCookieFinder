@@ -1,7 +1,9 @@
 package com.findmostactivecookie.implementations;
 
+import com.findmostactivecookie.Entities.CookieLog;
 import com.findmostactivecookie.interfaces.CookieContentAnalyzer;
 import com.findmostactivecookie.interfaces.FileReader;
+import com.findmostactivecookie.repositories.CookieLogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,11 +15,13 @@ import java.util.List;
 public class CookieProcessor {
     private final FileReader fileReader;
     private final CookieContentAnalyzer cookieContentAnalyzer;
+    private final CookieLogRepository cookieLogRepository;
 
     @Autowired
-    public CookieProcessor(FileReader fileReader, CookieContentAnalyzer cookieContentAnalyzer) {
+    public CookieProcessor(FileReader fileReader, CookieContentAnalyzer cookieContentAnalyzer, CookieLogRepository cookieLogRepository) {
         this.fileReader = fileReader;
         this.cookieContentAnalyzer = cookieContentAnalyzer;
+        this.cookieLogRepository = cookieLogRepository;
     }
 
     public void process(String filename, String date) {
@@ -41,5 +45,9 @@ public class CookieProcessor {
 
     private void displayResults(List<String> mostActiveCookies) {
         mostActiveCookies.forEach(System.out::println);
+
+        List<CookieLog> list1 = cookieLogRepository.findAll();
+
+        System.out.println(list1);
     }
 }
