@@ -1,7 +1,8 @@
 package com.findmostactivecookie.interfaces;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 public interface CookieContentAnalyzer {
-    List<String> findMostActiveCookies(List<String> logLines, String date);
+    List<String> findMostActiveCookies(Stream<String> logLines, String date);
 }
